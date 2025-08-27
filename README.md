@@ -25,19 +25,19 @@
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 StoreIt is a modern, full-stack cloud storage management platform that combines the power of **Appwrite's BaaS** with **custom MongoDB analytics** to deliver enterprise-grade file management capabilities. The platform features secure authentication, real-time file operations, advanced search, and comprehensive usage analytics.
 
-### 🌟 Key Highlights
+###  Key Highlights
 
-- **🚀 Modern Stack**: Built with Next.js 15, React 19, and TypeScript
-- **🔐 Secure Authentication**: Passwordless OTP authentication with session management  
-- **📊 Advanced Analytics**: Custom MongoDB integration for user activity tracking
-- **⚡ Real-time Operations**: File uploads, sharing, and management with instant updates
-- **📱 Responsive Design**: Mobile-first UI with Tailwind CSS and Radix UI components
-- **🎨 Premium UX**: Clean, modern interface with smooth animations and interactions
-- **🏗️ Hybrid Architecture**: BaaS + Custom Backend demonstrating versatile full-stack skills
+- ** Modern Stack**: Built with Next.js 15, React 19, and TypeScript
+- ** Secure Authentication**: Passwordless OTP authentication with session management  
+- ** Advanced Analytics**: Custom MongoDB integration for user activity tracking
+- **Real-time Operations**: File uploads, sharing, and management with instant updates
+- ** Responsive Design**: Mobile-first UI with Tailwind CSS and Radix UI components
+- ** Premium UX**: Clean, modern interface with smooth animations and interactions
+- **Hybrid Architecture**: BaaS + Custom Backend demonstrating versatile full-stack skills
 
 ---
 
@@ -103,26 +103,26 @@ StoreIt is a modern, full-stack cloud storage management platform that combines 
 The project implements a hybrid architecture combining the best of both worlds:
 
 **Appwrite BaaS for Core Features:**
-- ✅ Rapid development with production-ready authentication and storage
-- ✅ Built-in security, data validation, and real-time capabilities
-- ✅ Scalable infrastructure without DevOps complexity
-- ✅ File management with automatic CDN distribution
+-  Rapid development with production-ready authentication and storage
+-  Built-in security, data validation, and real-time capabilities
+-  Scalable infrastructure without DevOps complexity
+-  File management with automatic CDN distribution
 
 **MongoDB for Advanced Analytics:**
-- ✅ Custom user activity tracking and behavioral analytics
-- ✅ Complex aggregation pipelines for business intelligence
-- ✅ Search optimization and query performance insights  
-- ✅ Demonstrates advanced full-stack backend capabilities
+-  Custom user activity tracking and behavioral analytics
+-  Complex aggregation pipelines for business intelligence
+-  Search optimization and query performance insights  
+-  Demonstrates advanced full-stack backend capabilities
 
 **Next.js 15 Modern Architecture:**
-- ✅ Server Components for optimal performance and SEO
-- ✅ Server Actions for type-safe, secure API communication
-- ✅ App Router for intuitive, nested routing patterns
-- ✅ Streaming and Suspense for enhanced user experience
+-  Server Components for optimal performance and SEO
+-  Server Actions for type-safe, secure API communication
+-  App Router for intuitive, nested routing patterns
+-  Streaming and Suspense for enhanced user experience
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -212,7 +212,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 \`\`\`
 storeit/
@@ -300,9 +300,9 @@ npm run build && npm run start
 
 Ensure all required environment variables are configured in your deployment platform:
 
-- ✅ All Appwrite configuration variables
-- ✅ MongoDB URI (if using analytics features)  
-- ✅ Any additional API keys or secrets
+-  All Appwrite configuration variables
+-  MongoDB URI (if using analytics features)  
+-  Any additional API keys or secrets
 
 ---
 
@@ -352,51 +352,19 @@ The optional MongoDB integration provides powerful analytics capabilities that c
 - **User Engagement**: Identify most active users and engagement patterns
 - **Search Optimization**: Analyze query performance and suggest improvements
 
-### 🎯 Advanced Features
+###  Advanced Features
 - **Real-time Dashboard**: Live activity feed and engagement metrics
 - **Custom Reports**: Generate detailed analytics for specific time periods
 - **Data Export**: Export analytics data for external analysis
 - **Notification System**: Automated alerts based on usage patterns
 
-### 🚀 Future Enhancements
+###  Future Enhancements
 - **Team Collaboration Analytics**: Multi-user workspace insights
 - **Performance Optimization**: Identify and resolve bottlenecks
 - **Advanced Segmentation**: User behavior analysis and targeting
 - **Custom Dashboard Builder**: User-configurable analytics views
 
 ---
-
-## 🤝 Contributing
-
-We welcome contributions to improve StoreIt! Here's how you can help:
-
-### Getting Started
-1. **Fork the Repository**: Create your own copy of the project
-2. **Clone Your Fork**: \`git clone https://github.com/your-username/Storage-Management-System.git\`
-3. **Create Feature Branch**: \`git checkout -b feature/amazing-feature\`
-4. **Make Your Changes**: Implement your feature or bug fix
-5. **Test Thoroughly**: Ensure all functionality works as expected
-6. **Commit Changes**: \`git commit -m 'feat: add amazing feature'\`  
-7. **Push to Branch**: \`git push origin feature/amazing-feature\`
-8. **Open Pull Request**: Submit your contribution for review
-
-### Contribution Guidelines
-- Follow the existing code style and conventions
-- Add appropriate TypeScript types for new features
-- Update documentation for any new functionality
-- Test your changes across different browsers and devices
-- Ensure all linting and type checking passes
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for complete details.
-
-The MIT License permits use, copy, modification, and distribution of this software for any purpose, including commercial use, provided the original copyright notice and license terms are included.
-
----
-
 ## 🙏 Acknowledgments
 
 Special thanks to the amazing open-source projects and services that made this project possible:
@@ -412,15 +380,4 @@ Special thanks to the amazing open-source projects and services that made this p
 
 ---
 
-## 📞 Contact & Links
 
-**Developer**: Sai Navarasu  
-**Repository**: [https://github.com/Sainava/Storage-Management-System](https://github.com/Sainava/Storage-Management-System)  
-
----
-
-<div align="center">
-  <h3>🌟 If you found this project helpful, please give it a star! 🌟</h3>
-  <p>Built with ❤️ using Next.js, TypeScript, and modern web technologies</p>
-  <p><strong>Showcasing modern full-stack development with hybrid architecture</strong></p>
-</div>
