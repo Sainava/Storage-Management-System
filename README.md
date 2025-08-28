@@ -2,7 +2,7 @@
 
 <div align="center">
   <p align="center">
-    A full-stack cloud storage platform built with Next.js 15, featuring secure file management, real-time analytics, and seamless collaboration tools.
+    A full-stack cloud storage platform built with Next.js 15, featuring secure OTP authentication, file management, and real-time sharing capabilities.
   </p>
 
   <p align="center">
@@ -10,62 +10,75 @@
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="Tailwind CSS" />
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="Appwrite" />
-    <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=47A248" alt="MongoDB" />
   </p>
 
   <p align="center">
     <a href="#-project-overview">Overview</a> •
     <a href="#-features">Features</a> •
     <a href="#-tech-stack">Tech Stack</a> •
-    <a href="#-architecture">Architecture</a> •
     <a href="#-quick-start">Quick Start</a> •
-    <a href="#-deployment">Deployment</a>
+    <a href="#-deployment">Deployment</a> •
+    <a href="#-roadmap">Roadmap</a>
   </p>
 </div>
 
 ---
 
-##  Project Overview
+## 🎯 Project Overview
 
-StoreIt is a modern, full-stack cloud storage management platform that combines the power of **Appwrite's BaaS** with **custom MongoDB analytics** to deliver enterprise-grade file management capabilities. The platform features secure authentication, real-time file operations, advanced search, and comprehensive usage analytics.
+StoreIt is a modern, full-stack cloud storage management platform built with **Next.js 15** and **Appwrite**. It features secure passwordless authentication, comprehensive file management, and real-time sharing capabilities - all wrapped in a beautiful, responsive interface.
 
-###  Key Highlights
+**Perfect for showcasing:**
+- Modern web development with Next.js 15 App Router
+- Secure authentication patterns with OTP verification
+- File upload/management workflows
+- Real-time updates and responsive design
+- Integration with Backend-as-a-Service platforms
 
-- ** Modern Stack**: Built with Next.js 15, React 19, and TypeScript
-- ** Secure Authentication**: Passwordless OTP authentication with session management  
-- ** Advanced Analytics**: Custom MongoDB integration for user activity tracking
-- **Real-time Operations**: File uploads, sharing, and management with instant updates
-- ** Responsive Design**: Mobile-first UI with Tailwind CSS and Radix UI components
-- ** Premium UX**: Clean, modern interface with smooth animations and interactions
-- **Hybrid Architecture**: BaaS + Custom Backend demonstrating versatile full-stack skills
+### 🌟 Key Highlights
+
+- **🚀 Modern Stack**: Built with Next.js 15, React 19, and TypeScript
+- **🔐 Secure Authentication**: Passwordless OTP authentication via email
+- **📁 Complete File Management**: Upload, organize, share, and manage files
+- **👥 Real-time Sharing**: Email-based file sharing with instant updates
+- **📊 Usage Dashboard**: Visual storage usage tracking with interactive charts
+- **📱 Responsive Design**: Mobile-first UI with Tailwind CSS and ShadCN components
+- **⚡ High Performance**: Server components and optimized file handling
 
 ---
 
-## ✨ Features
+## ✨ Current Features
 
-### 📁 Core File Management
-- **📤 Drag & Drop Uploads** - Seamless file uploading with real-time progress tracking
-- **🔍 Advanced Search** - Global search with filtering, sorting, and intelligent suggestions
-- **👥 File Sharing** - Email-based sharing with granular permissions and access control
-- **✏️ File Operations** - Rename, delete, and organize files with instant feedback
-- **📱 Mobile Responsive** - Full functionality across all devices and screen sizes
-- **🗂️ File Organization** - Categorized by type (Documents, Images, Media, Others)
+### 🔐 Authentication & Security
+- **Passwordless Login**: Secure OTP authentication sent via email
+- **Session Management**: Secure cookie-based sessions with auto-expiration
+- **Protected Routes**: Route-level protection for authenticated users
+- **Account Creation**: Simple signup with email verification
 
-### 📊 Analytics & Insights  
-- **📈 Usage Dashboard** - Real-time storage usage with interactive visual charts
-- **🔥 Activity Tracking** - Monitor uploads, downloads, views, and shares with detailed logs
-- **🔍 Search Analytics** - Track search patterns, popular queries, and optimization insights
-- **📊 Engagement Metrics** - 7-day activity summaries with trend analysis
-- **🚨 Smart Notifications** - Automated alerts for storage limits and sharing activities
-- **📝 Audit Logging** - Complete activity trail for security and compliance
+### 📁 File Management
+- **📤 File Upload**: Drag & drop interface with real-time progress tracking
+- **🗂️ File Organization**: Automatic categorization by type (Documents, Images, Media, Others)
+- **�� Search & Filter**: Global search with sorting options (name, date, size)
+- **✏️ File Operations**: Rename and delete files with instant UI updates
+- **📱 Responsive Grid**: Beautiful file grid that adapts to all screen sizes
 
-### 🔒 Security & Performance
-- **🔐 OTP Authentication** - Secure passwordless login with email verification
-- **⚡ Optimized Performance** - Server-side rendering with intelligent caching strategies
-- **🛡️ Access Control** - Role-based permissions with comprehensive audit logging
-- **📈 Scalable Architecture** - Hybrid BaaS + custom backend design for future growth
-- **🔒 Session Management** - Secure cookie-based sessions with automatic expiration
-- **🚀 Real-time Updates** - Instant UI updates without page refreshes
+### 👥 Sharing & Collaboration
+- **📧 Email Sharing**: Share files with others via email addresses
+- **🔗 Secure Links**: Generate secure download links for shared files
+- **👁️ File Preview**: In-browser preview for images and documents
+- **📥 Easy Downloads**: One-click file downloads with proper file types
+
+### 📊 Dashboard & Analytics
+- **📈 Usage Overview**: Visual storage usage breakdown by file type
+- **📊 Interactive Charts**: Beautiful charts showing storage distribution
+- **📋 Recent Activity**: Quick access to recently uploaded files
+- **💾 Storage Tracking**: Real-time storage usage with 2GB limit visualization
+
+### 🎨 User Experience
+- **🌙 Modern UI**: Clean, professional interface with smooth animations
+- **📱 Mobile Responsive**: Full functionality across all devices
+- **⚡ Fast Loading**: Optimized with Next.js Server Components
+- **🔄 Real-time Updates**: Instant UI updates without page refreshes
 
 ---
 
@@ -73,63 +86,33 @@ StoreIt is a modern, full-stack cloud storage management platform that combines 
 
 ### Frontend
 - **Next.js 15** - React framework with App Router and Server Components
-- **React 19** - Latest React features with concurrent rendering capabilities  
-- **TypeScript** - Type-safe development with comprehensive IntelliSense
-- **Tailwind CSS** - Utility-first styling with custom design system
-- **Radix UI** - Accessible, unstyled UI primitives for complex components
-- **ShadCN/UI** - Beautiful, reusable component library
-- **Recharts** - Interactive charts and data visualization
-- **React Hook Form** - Performant forms with built-in validation
+- **React 19** - Latest React with concurrent features
+- **TypeScript** - Type-safe development with full IntelliSense
+- **Tailwind CSS** - Utility-first styling framework
+- **ShadCN/UI** - Modern, accessible component library
+- **Radix UI** - Headless UI primitives for complex components
+- **Recharts** - Interactive charts for data visualization
+- **React Hook Form** - Performant forms with validation
 - **Zod** - TypeScript-first schema validation
 
 ### Backend & Services
-- **Appwrite** - Backend-as-a-Service for auth, database, and file storage
-- **MongoDB** - Custom analytics database with aggregation pipelines
-- **Server Actions** - Type-safe server functions with Next.js integration
-- **Node.js** - Server-side JavaScript runtime environment
+- **Appwrite** - Backend-as-a-Service for auth, database, and storage
+- **Server Actions** - Type-safe server functions with Next.js
+- **File Storage** - Secure file storage with Appwrite buckets
 
-### Development & Deployment  
-- **Vercel** - Serverless deployment and hosting platform
-- **ESLint** - Code linting with TypeScript and Next.js rules
-- **Prettier** - Automated code formatting and style consistency
-- **Git** - Version control with conventional commit patterns
+### Development & Deployment
+- **Vercel** - Deployment and hosting platform
+- **ESLint** - Code linting and quality enforcement
+- **Git** - Version control with clean commit history
 
 ---
 
-## 🏗 Architecture
-
-### Hybrid Backend Architecture
-
-The project implements a hybrid architecture combining the best of both worlds:
-
-**Appwrite BaaS for Core Features:**
--  Rapid development with production-ready authentication and storage
--  Built-in security, data validation, and real-time capabilities
--  Scalable infrastructure without DevOps complexity
--  File management with automatic CDN distribution
-
-**MongoDB for Advanced Analytics:**
--  Custom user activity tracking and behavioral analytics
--  Complex aggregation pipelines for business intelligence
--  Search optimization and query performance insights  
--  Demonstrates advanced full-stack backend capabilities
-
-**Next.js 15 Modern Architecture:**
--  Server Components for optimal performance and SEO
--  Server Actions for type-safe, secure API communication
--  App Router for intuitive, nested routing patterns
--  Streaming and Suspense for enhanced user experience
-
----
-
-##  Quick Start
+## 🚀 Quick Start
 
 ### Prerequisites
 
-Make sure you have the following installed:
-
 - **Node.js** >= 18.0.0
-- **npm** >= 9.0.0  
+- **npm** >= 9.0.0
 - **Git** for version control
 
 ### 1. Clone the Repository
@@ -150,114 +133,78 @@ npm install
 Create \`.env.local\` in the root directory:
 
 \`\`\`env
-# Appwrite Configuration (Required)
+# Appwrite Configuration
 NEXT_PUBLIC_APPWRITE_ENDPOINT="https://cloud.appwrite.io/v1"
 NEXT_PUBLIC_APPWRITE_PROJECT="your-project-id"
-NEXT_PUBLIC_APPWRITE_DATABASE="your-database-id"  
+NEXT_PUBLIC_APPWRITE_DATABASE="your-database-id"
 NEXT_PUBLIC_APPWRITE_USERS_COLLECTION="your-users-collection-id"
 NEXT_PUBLIC_APPWRITE_FILES_COLLECTION="your-files-collection-id"
 NEXT_PUBLIC_APPWRITE_BUCKET="your-bucket-id"
 NEXT_APPWRITE_KEY="your-api-key"
-
-# MongoDB Analytics (Optional - enhances analytics features)
-MONGODB_URI="mongodb://localhost:27017"
-MONGODB_ANALYTICS_DB="storeit_analytics"
 \`\`\`
 
 ### 4. Appwrite Setup
 
 1. **Create Account**: Sign up at [Appwrite](https://appwrite.io/)
 2. **Create Project**: Initialize a new project in your dashboard
-3. **Configure Authentication**: 
+3. **Configure Authentication**:
    - Enable Email/Password authentication
-   - Set up OTP email templates
+   - Set up email templates for OTP
 4. **Database Setup**:
-   - Create database and configure collections:
-     - **users**: \`fullName\`, \`email\`, \`avatar\`, \`accountId\`
-     - **files**: \`name\`, \`type\`, \`extension\`, \`size\`, \`owner\`, \`users[]\`, \`bucketFileId\`, \`url\`
-5. **Storage Configuration**:
+   - Create database with two collections:
+   - **users**: \`fullName\`, \`email\`, \`avatar\`, \`accountId\`
+   - **files**: \`name\`, \`type\`, \`extension\`, \`size\`, \`owner\`, \`users[]\`, \`bucketFileId\`, \`url\`
+5. **Storage Setup**:
    - Create storage bucket for file uploads
-   - Set appropriate read/write permissions
-6. **Environment Variables**: Copy all configuration IDs to \`.env.local\`
+   - Configure appropriate permissions
+6. **Copy Configuration**: Add all IDs to \`.env.local\`
 
-### 5. MongoDB Setup (Optional - Enhances Analytics)
-
-**Option A: Local Development**
-\`\`\`bash
-# Using Docker (Recommended)
-docker run -d -p 27017:27017 --name mongodb mongo:latest
-
-# Or install locally on macOS  
-brew install mongodb-community
-brew services start mongodb-community
-\`\`\`
-
-**Option B: MongoDB Atlas (Production)**
-1. Create free account at [MongoDB Atlas](https://cloud.mongodb.com)
-2. Create new cluster (free tier available)
-3. Configure network access and database user
-4. Copy connection string to \`MONGODB_URI\`
-
-### 6. Run the Application
+### 5. Run the Application
 
 \`\`\`bash
 # Development server
 npm run dev
-
-# Production build
-npm run build && npm start
 \`\`\`
 
 Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
 
-## Project Structure
+## 📦 Project Structure
 
 \`\`\`
 storeit/
 ├── app/                        # Next.js App Router
-│   ├── (auth)/                # Authentication routes (sign-in, sign-up)
+│   ├── (auth)/                # Authentication routes
 │   │   ├── sign-in/page.tsx   # Sign-in page
-│   │   ├── sign-up/page.tsx   # Sign-up page  
-│   │   └── layout.tsx         # Auth layout with branding
-│   ├── (root)/                # Protected application routes
+│   │   ├── sign-up/page.tsx   # Sign-up page
+│   │   └── layout.tsx         # Auth layout
+│   ├── (root)/                # Protected app routes
 │   │   ├── page.tsx           # Dashboard homepage
-│   │   ├── [type]/page.tsx    # Dynamic file type pages
-│   │   └── layout.tsx         # Main app layout with navigation
-│   ├── globals.css            # Global styles and utility classes
-│   └── layout.tsx             # Root layout with fonts and metadata
+│   │   ├── [type]/page.tsx    # File type pages
+│   │   └── layout.tsx         # Main app layout
+│   ├── globals.css            # Global styles
+│   └── layout.tsx             # Root layout
 ├── components/                 # Reusable UI components
-│   ├── ui/                    # ShadCN UI component library
-│   ├── AnalyticsDashboard.tsx # MongoDB analytics dashboard
-│   ├── FileUploader.tsx       # Drag & drop file upload
-│   ├── Header.tsx             # App header with search and actions
+│   ├── ui/                    # ShadCN component library
+│   ├── AuthForm.tsx           # Authentication forms
+│   ├── FileUploader.tsx       # File upload component
+│   ├── Header.tsx             # App header with search
 │   ├── Sidebar.tsx            # Navigation sidebar
-│   └── ...                    # Additional feature components
-├── lib/                       # Utility libraries and configurations  
-│   ├── actions/               # Server actions for data operations
-│   │   ├── file.actions.ts    # File management operations
-│   │   └── user.actions.ts    # User authentication operations
-│   ├── analytics/             # MongoDB analytics integration
-│   │   ├── mongodb.ts         # Database connection and collections
-│   │   ├── types.ts           # TypeScript interfaces
-│   │   └── actions.ts         # Analytics server actions
-│   ├── appwrite/              # Appwrite BaaS configuration
-│   │   ├── config.ts          # Environment configuration
-│   │   └── index.ts           # Client initialization
-│   └── utils.ts               # Helper functions and utilities
-├── constants/                 # Application constants and configuration
-│   └── index.ts               # Navigation items, action types, etc.
-├── types/                     # TypeScript type definitions
-│   └── index.d.ts             # Global type declarations
-├── public/                    # Static assets
-│   ├── assets/                # Icons, images, and media files
-│   └── readme/                # Documentation assets
-└── Configuration files
-    ├── next.config.ts         # Next.js configuration
-    ├── tailwind.config.ts     # Tailwind CSS configuration
-    ├── tsconfig.json          # TypeScript configuration
-    └── package.json           # Dependencies and scripts
+│   ├── Card.tsx               # File display cards
+│   ├── Chart.tsx              # Storage usage chart
+│   └── ...                    # Additional components
+├── lib/                       # Utility libraries
+│   ├── actions/               # Server actions
+│   │   ├── file.actions.ts    # File operations
+│   │   └── user.actions.ts    # User operations
+│   ├── appwrite/              # Appwrite configuration
+│   │   ├── config.ts          # Environment config
+│   │   └── index.ts           # Client setup
+│   └── utils.ts               # Helper functions
+├── constants/                 # App constants
+├── types/                     # TypeScript definitions
+└── public/                    # Static assets
 \`\`\`
 
 ---
@@ -266,43 +213,21 @@ storeit/
 
 ### Vercel Deployment (Recommended)
 
-1. **Prepare Repository**
+1. **Push to GitHub**:
    \`\`\`bash
    git add .
-   git commit -m "feat: initial deployment"
+   git commit -m "feat: ready for deployment"
    git push origin main
    \`\`\`
 
-2. **Deploy to Vercel**
-   - Import your GitHub repository at [Vercel](https://vercel.com)
-   - Configure environment variables from \`.env.local\`  
-   - Deploy with automatic builds and previews
+2. **Deploy to Vercel**:
+   - Import repository at [vercel.com](https://vercel.com)
+   - Add environment variables from \`.env.local\`
+   - Deploy with automatic builds
 
-3. **Post-Deployment Configuration**
+3. **Post-Deployment**:
    - Update Appwrite allowed origins with your Vercel domain
-   - Test all functionality in production environment
-   - Configure custom domain (optional)
-
-### Manual Deployment
-
-\`\`\`bash
-# Build optimized production bundle
-npm run build
-
-# Start production server
-npm start
-
-# Test production build locally
-npm run build && npm run start
-\`\`\`
-
-### Environment Variables Checklist
-
-Ensure all required environment variables are configured in your deployment platform:
-
--  All Appwrite configuration variables
--  MongoDB URI (if using analytics features)  
--  Any additional API keys or secrets
+   - Test all functionality in production
 
 ---
 
@@ -311,73 +236,93 @@ Ensure all required environment variables are configured in your deployment plat
 ### Available Scripts
 
 \`\`\`bash
-npm run dev          # Start development server with hot reloading
-npm run build        # Build optimized production bundle
-npm run start        # Start production server  
-npm run lint         # Run ESLint code analysis
-npm run lint:fix     # Automatically fix linting issues
-npm run type-check   # Run TypeScript compiler checks
+npm run dev          # Start development server
+npm run build        # Build production bundle
+npm run start        # Start production server
+npm run lint         # Run ESLint
+npm run type-check   # TypeScript checking
 \`\`\`
-
-### Code Quality Standards
-
-- **ESLint**: Comprehensive linting with Next.js, React, and TypeScript rules
-- **Prettier**: Consistent code formatting across the entire codebase
-- **TypeScript**: Strict type checking for improved code reliability  
-- **Conventional Commits**: Structured commit messages for better project history
 
 ### Development Workflow
 
-1. **Feature Development**: Create feature branch from \`main\`
-2. **Code Quality**: Run linting and type checking before commits
-3. **Testing**: Test functionality across different file types and user scenarios
-4. **Documentation**: Update README and code comments as needed
-5. **Pull Request**: Submit PR with descriptive title and detailed description
+1. Create feature branch from \`main\`
+2. Implement changes with proper TypeScript types
+3. Test functionality across different file types
+4. Commit with descriptive messages
+5. Submit pull request with detailed description
 
 ---
 
-## 📊 MongoDB Analytics Features
+## 🗺️ Roadmap & Future Features
 
-The optional MongoDB integration provides powerful analytics capabilities that complement the core Appwrite functionality:
+### 🔄 Phase 2 - Advanced Analytics
+- **📊 MongoDB Integration**: Custom analytics database for user insights
+- **📈 Activity Tracking**: Track uploads, downloads, views, and shares
+- **🔍 Search Analytics**: Monitor search patterns and optimize results
+- **📱 Usage Dashboard**: Enhanced dashboard with detailed metrics
+- **🚨 Smart Notifications**: Automated alerts for storage and activity
 
-### 🔍 Activity Tracking
-- **User Actions**: Comprehensive logging of uploads, downloads, views, and shares
-- **File Analytics**: Track individual file engagement and popularity
-- **Search Behavior**: Monitor search queries, results, and user patterns
-- **Performance Metrics**: Response times and system usage statistics
+### 🚀 Phase 3 - Collaboration Features
+- **👥 Team Workspaces**: Multi-user collaboration spaces
+- **🏷️ File Tagging**: Custom tags and advanced organization
+- **💬 Comments System**: File-level comments and discussions
+- **📝 Version Control**: File versioning and history tracking
+- **🔐 Advanced Permissions**: Granular access control and roles
 
-### 📈 Business Intelligence  
-- **Usage Trends**: 7-day, monthly, and custom date range analytics
-- **Storage Insights**: Track storage consumption patterns by file type
-- **User Engagement**: Identify most active users and engagement patterns
-- **Search Optimization**: Analyze query performance and suggest improvements
-
-###  Advanced Features
-- **Real-time Dashboard**: Live activity feed and engagement metrics
-- **Custom Reports**: Generate detailed analytics for specific time periods
-- **Data Export**: Export analytics data for external analysis
-- **Notification System**: Automated alerts based on usage patterns
-
-###  Future Enhancements
-- **Team Collaboration Analytics**: Multi-user workspace insights
-- **Performance Optimization**: Identify and resolve bottlenecks
-- **Advanced Segmentation**: User behavior analysis and targeting
-- **Custom Dashboard Builder**: User-configurable analytics views
+### 🌟 Phase 4 - Advanced Features
+- **🔄 Real-time Sync**: Live collaboration and file synchronization
+- **📱 Mobile App**: Native mobile applications for iOS/Android
+- **🔍 AI-Powered Search**: Intelligent search with content recognition
+- **📊 Business Intelligence**: Advanced reporting and analytics
+- **🌐 API Access**: RESTful API for third-party integrations
 
 ---
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how to get started:
+
+1. **Fork the Repository**
+2. **Create Feature Branch**: \`git checkout -b feature/amazing-feature\`
+3. **Make Changes**: Implement your feature
+4. **Test Thoroughly**: Ensure everything works
+5. **Commit**: \`git commit -m 'feat: add amazing feature'\`
+6. **Push**: \`git push origin feature/amazing-feature\`
+7. **Open Pull Request**: Submit for review
+
+### Guidelines
+- Follow existing code style and conventions
+- Add TypeScript types for new features
+- Update documentation as needed
+- Test across different browsers and devices
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
 ## 🙏 Acknowledgments
 
-Special thanks to the amazing open-source projects and services that made this project possible:
-
-- **[Appwrite](https://appwrite.io/)** - Comprehensive Backend-as-a-Service platform
-- **[Next.js](https://nextjs.org/)** - The React framework for production applications
-- **[MongoDB](https://www.mongodb.com/)** - Document database for modern applications
-- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework  
-- **[Radix UI](https://www.radix-ui.com/)** - Accessible UI component primitives
-- **[ShadCN/UI](https://ui.shadcn.com/)** - Beautiful and accessible component library
-- **[Vercel](https://vercel.com/)** - Platform for frontend frameworks and static sites
-- **[TypeScript](https://www.typescriptlang.org/)** - Typed superset of JavaScript
+- **[Appwrite](https://appwrite.io/)** - Backend-as-a-Service platform
+- **[Next.js](https://nextjs.org/)** - React framework for production
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[ShadCN/UI](https://ui.shadcn.com/)** - Component library
+- **[Vercel](https://vercel.com/)** - Deployment platform
 
 ---
 
+## 📞 Contact
 
+**Developer**: Sai Navarasu  
+**Repository**: [https://github.com/Sainava/Storage-Management-System](https://github.com/Sainava/Storage-Management-System)  
+
+---
+
+<div align="center">
+  <h3>🌟 If you found this project helpful, please give it a star! 🌟</h3>
+  <p>Built with ❤️ using Next.js, TypeScript, and Appwrite</p>
+  <p><strong>Perfect for showcasing modern full-stack development skills</strong></p>
+</div>
